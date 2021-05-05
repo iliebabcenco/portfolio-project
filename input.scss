@@ -6,7 +6,7 @@ $nav-color: #3E3C3C;
 // top navbar
 
 .top-navbar {
-    background-color: $nav-color;
+    background-color: #141e30;
     padding: 0 8rem;
     align-items: flex-end;
 }
@@ -16,7 +16,7 @@ $nav-color: #3E3C3C;
 }
 
 .top-navbar .nav-link, .navbar-brand {
-    color: white !important;
+    color: #A2A2A1FF !important;
 }
 
 .nav-link:hover, .navbar-brand:hover {
@@ -27,3 +27,43 @@ $nav-color: #3E3C3C;
     margin-top: 0.33rem;
 }
 
+//greet section
+
+.medium-navbar-ul {
+    list-style-type: none;
+    margin: 0 2rem;
+    padding: 0;
+}
+
+.mn-li {
+    margin-top: 1rem;
+}
+
+.navm-link {
+    color: #A2A2A1FF;
+}
+
+.medium-navbar {
+    top: 35%;
+    position: absolute;
+}
+
+.greet-section {
+    height: 50rem;
+    background: $main-gradient;
+}
+
+.navm-link:hover {
+    color: #d4d4d4 !important;
+}
+
+.hi-section {
+    position: absolute;
+    color: #B3C7D6FF;
+    top: 30%;
+    left: 10%;
+}
+
+.greet-h1 {
+    color: #B3C7D6FF;
+}
