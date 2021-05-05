@@ -1,3 +1,6 @@
+html {
+  font-family: Verdana, sans-serif; }
+
 .top-navbar {
   background-color: #141e30;
   padding: 0 8rem;
@@ -58,14 +61,122 @@
   margin: 0;
   padding: 0; }
 
+.add-svg {
+  width: 10rem;
+  position: absolute;
+  z-index: -1; }
+
+#first-svg {
+  bottom: 0%;
+  left: 1%; }
+
+#second-svg {
+  bottom: 30%;
+  right: 1%; }
+
+#third-svg {
+  bottom: 30%;
+  right: 1%; }
+
 .porfolio-section {
   margin: 0 auto;
-  width: 80%; }
+  width: 80%;
+  margin-top: 5rem;
+  position: relative; }
 
-.proj-img {
-  width: 25rem; }
+.main-project {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%; }
 
 .main-proj-img {
-  width: 70%; }
+  width: 80%; }
+
+.secondary-projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white; }
+
+.secondary-project {
+  width: 25rem;
+  height: 20rem;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 2%;
+  position: relative; }
+
+.secondary-project:hover .project-link {
+  display: block; }
+
+.secondary-project:hover .proj-div {
+  display: none; }
+
+#first-project:hover {
+  background: none, url(assets/telegram-bot/example1.png) no-repeat center center;
+  background-size: 100%; }
+
+#second-project:hover {
+  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#third-project:hover {
+  background: none, url(assets/mindcompilator/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#fourth-project:hover {
+  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#fifth-project:hover {
+  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#sixth-project:hover {
+  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#first-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/telegram-bot/example1.png) no-repeat center center;
+  background-size: 100%; }
+
+#second-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#third-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/mindcompilator/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#fourth-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#fifth-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+#sixth-project {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background-size: 100%; }
+
+.project-link {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  background-color: #A2A2A1FF;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border-radius: 5%;
+  display: none; }
+
+.project-link:hover {
+  background-color: #a7a7a7;
+  color: white; }
+
+.proj-div {
+  position: absolute;
+  bottom: 5%; }
 
 /*# sourceMappingURL=styles.css.map */
