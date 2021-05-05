@@ -10,6 +10,10 @@ html {
     font-family: $font-stack;
 }
 
+body {
+    background: $main-gradient;
+}
+
 .top-navbar {
     background-color: #141e30;
     padding: 0 8rem;
@@ -113,10 +117,10 @@ html {
 
 
 .porfolio-section {
-    margin: 0 auto;
+    margin: 5rem auto;
     width: 80%;
-    margin-top: 5rem;
     position: relative;
+    color: #B3C7D6FF;
 }
 
 .main-project {
@@ -133,7 +137,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: white;
+    color: #B3C7D6FF;
 }
 
 .secondary-project {
@@ -156,57 +160,57 @@ html {
 
 #first-project:hover {
     background: none, url(assets/telegram-bot/example1.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #second-project:hover {
     background: none, url(assets/grow-up/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #third-project:hover {
     background: none, url(assets/mindcompilator/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #fourth-project:hover {
     background: none, url(assets/grow-up/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #fifth-project:hover {
     background: none, url(assets/grow-up/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #sixth-project:hover {
     background: none, url(assets/grow-up/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #first-project {
     background: $sec-proj-gradient, url(assets/telegram-bot/example1.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #second-project {
     background: $sec-proj-gradient, url(assets/grow-up/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #third-project {
     background: $sec-proj-gradient, url(assets/mindcompilator/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #fourth-project {
     background: $sec-proj-gradient, url(assets/grow-up/logo.png) no-repeat center center; 
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #fifth-project {
     background: $sec-proj-gradient, url(assets/grow-up/logo.png) no-repeat center center;  
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #sixth-project {
     background: $sec-proj-gradient, url(assets/grow-up/logo.png) no-repeat center center;  
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .project-link {
