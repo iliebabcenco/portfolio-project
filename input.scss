@@ -67,3 +67,32 @@ $nav-color: #3E3C3C;
 .greet-h1 {
     color: #B3C7D6FF;
 }
+
+.abstract-section {
+    position: absolute;
+    right: 5%;
+    top: 29%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abstract-image {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+//project section
+
+.porfolio-section {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.proj-img {
+    width: 25rem;
+}
+
+.main-proj-img {
+    width: 70%;
+}
