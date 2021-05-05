@@ -1,3 +1,18 @@
+.top-navbar {
+  background-color: #3E3C3C;
+  padding: 0 8rem;
+  align-items: flex-end; }
 
+.collapse {
+  justify-content: flex-end; }
+
+.top-navbar .nav-link, .navbar-brand {
+  color: white !important; }
+
+.nav-link:hover, .navbar-brand:hover {
+  color: #d4d4d4 !important; }
+
+.nav-link .far {
+  margin-top: 0.33rem; }
 
 /*# sourceMappingURL=styles.css.map */

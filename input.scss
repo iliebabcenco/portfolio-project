@@ -1,4 +1,29 @@
 $font-stack: Verdana, sans-serif;
 $main-gradient: linear-gradient(to right, #141e30, #243b55);
 $mid-night: linear-gradient(to right, #232526, #414345);
+$nav-color: #3E3C3C;
+
+// top navbar
+
+.top-navbar {
+    background-color: $nav-color;
+    padding: 0 8rem;
+    align-items: flex-end;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.top-navbar .nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #d4d4d4 !important;
+}
+
+.nav-link .far {
+    margin-top: 0.33rem;
+}
 
