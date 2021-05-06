@@ -174,15 +174,19 @@ body {
   color: white;
   padding: 1rem;
   background-color: #B3C7D6FF;
-  position: absolute;
-  top: 40%;
-  left: 35%;
   border-radius: 5%;
-  display: none; }
+  display: none;
+  margin: 0.1rem; }
 
 .project-link:hover {
   background-color: #a4b8c7;
   color: white; }
+
+.links-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20%; }
 
 .proj-div {
   position: absolute;
