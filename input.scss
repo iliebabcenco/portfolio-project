@@ -20,6 +20,14 @@ body {
     margin-bottom: 0.9rem;
 }
 
+.menu-fas {
+    color: #A2A2A1FF !important;
+}
+
+.menu-fas:hover {
+    color: #d4d4d4 !important;
+}
+
 .top-navbar {
     background-color: #141e30;
     padding: 0 8rem;
@@ -325,3 +333,100 @@ body {
 .footer .medium-navbar-ul .mn-li {
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .section-title {
+        text-align: center;
+    }
+    .first-div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-navbar {
+        padding: 1rem;
+    }
+    .medium-navbar-ul {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .medium-navbar {
+        position: static;
+        margin-top: 5rem;
+    }
+    .greet-section {
+        display: flex;
+        position: static;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+    .abstract-section {
+        margin-top: 3rem;
+        position: static;
+    }
+    .hi-section {
+        position: static;
+    }
+    .porfolio-section {
+        width: 98%;
+    }
+    .top-footer-part {
+        flex-direction: column;
+    }
+    .form-section {
+        width: 95%;
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .footer {
+        height: auto;
+        padding: 2rem;
+    }
+    .medium-navbar-ul {
+        padding-bottom: 3rem;
+    }
+    .abil-h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .abilities-section {
+        flex-direction: column;
+        align-content: center;
+        font-size: 24px;
+        text-align: center;
+    }
+    .frameworks {
+        margin-top: 3rem;
+    }
+    .skills {
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .form-section {
+        margin-top: 2rem;
+        width: 95%;
+        margin-left: 0;
+    }
+    .footer {
+        height: auto;
+    }
+    .medium-navbar-ul {
+        padding-bottom: 3rem;
+    }
+    .abstract-image {
+        width: 30%;
+    }
+    .porfolio-section {
+        width: 95%;
+    }
+    .aboutme-section {
+        width: 95%;
+    }
+    
+}
+
+
