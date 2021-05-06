@@ -4,6 +4,9 @@ html {
 body {
   background: linear-gradient(to right, #141e30, #243b55); }
 
+.greet-h4 {
+  margin-bottom: 0.9rem; }
+
 .top-navbar {
   background-color: #141e30;
   padding: 0 8rem;
@@ -47,7 +50,8 @@ body {
   position: absolute;
   color: #B3C7D6FF;
   top: 30%;
-  left: 10%; }
+  left: 10%;
+  font-weight: 500; }
 
 .greet-h1 {
   color: #B3C7D6FF; }
@@ -85,7 +89,8 @@ body {
   margin: 5rem auto;
   width: 80%;
   position: relative;
-  color: #B3C7D6FF; }
+  color: #B3C7D6FF;
+  margin-bottom: 10rem; }
 
 .main-project {
   margin: 0 auto;
@@ -93,7 +98,8 @@ body {
   width: 70%; }
 
 .main-proj-img {
-  width: 80%; }
+  width: 80%;
+  margin: 1rem 0; }
 
 .secondary-projects-section {
   display: flex;
@@ -103,7 +109,7 @@ body {
 
 .secondary-project {
   width: 25rem;
-  height: 20rem;
+  height: 15rem;
   margin: 2rem;
   padding: 1rem;
   border-radius: 2%;
@@ -140,34 +146,34 @@ body {
   background-size: 100% 100%; }
 
 #first-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/telegram-bot/example1.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/telegram-bot/example1.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #second-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #third-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/mindcompilator/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/mindcompilator/logo.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #fourth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #fifth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #sixth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
   background-size: 100% 100%; }
 
 .project-link {
   text-decoration: none;
   color: white;
   padding: 1rem;
-  background-color: #A2A2A1FF;
+  background-color: #B3C7D6FF;
   position: absolute;
   top: 40%;
   left: 35%;
@@ -175,11 +181,52 @@ body {
   display: none; }
 
 .project-link:hover {
-  background-color: #a7a7a7;
+  background-color: #a4b8c7;
   color: white; }
 
 .proj-div {
   position: absolute;
   bottom: 5%; }
+
+.footer {
+  margin: 0 auto;
+  padding: 5rem;
+  padding-bottom: 0;
+  background-color: #141e30;
+  width: 100%;
+  height: 45rem; }
+
+.footer hr {
+  color: #B3C7D6FF;
+  width: 90%;
+  margin: 0 auto; }
+
+.resume-a {
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem;
+  background-color: #889caa;
+  top: 40%;
+  left: 35%;
+  border-radius: 5%; }
+
+.resume-a:hover {
+  background-color: #6c7a85;
+  color: white; }
+
+.aboutme-section {
+  color: #B3C7D6FF;
+  font-weight: 500; }
+
+.form-section {
+  width: 30%;
+  padding-top: 1.1rem;
+  margin-left: 2rem; }
+
+.top-footer-part {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 3rem; }
 
 /*# sourceMappingURL=styles.css.map */

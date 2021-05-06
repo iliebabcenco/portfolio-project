@@ -1,8 +1,10 @@
 $font-stack: Verdana, sans-serif;
 $main-gradient: linear-gradient(to right, #141e30, #243b55);
+$opposite-gradient: linear-gradient(to right,#243b55, #141e30);
 $mid-night: linear-gradient(to right, #232526, #414345);
 $nav-color: #3E3C3C;
-$sec-proj-gradient: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+$sec-proj-gradient: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%);
+$baby-blue:  #B3C7D6FF;
 
 // top navbar
 
@@ -12,6 +14,10 @@ html {
 
 body {
     background: $main-gradient;
+}
+
+.greet-h4 {
+    margin-bottom: 0.9rem;
 }
 
 .top-navbar {
@@ -68,13 +74,14 @@ body {
 
 .hi-section {
     position: absolute;
-    color: #B3C7D6FF;
+    color: $baby-blue;
     top: 30%;
     left: 10%;
+    font-weight: 500;
 }
 
 .greet-h1 {
-    color: #B3C7D6FF;
+    color: $baby-blue;
 }
 
 .abstract-section {
@@ -120,7 +127,8 @@ body {
     margin: 5rem auto;
     width: 80%;
     position: relative;
-    color: #B3C7D6FF;
+    color: $baby-blue;
+    margin-bottom: 10rem;
 }
 
 .main-project {
@@ -131,18 +139,19 @@ body {
 
 .main-proj-img {
     width: 80%;
+    margin: 1rem 0;
 }
 
 .secondary-projects-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #B3C7D6FF;
+    color: $baby-blue;
 }
 
 .secondary-project {
     width: 25rem;
-    height: 20rem;
+    height: 15rem;
     margin: 2rem;
     padding: 1rem;
     border-radius: 2%;
@@ -154,7 +163,6 @@ body {
 }
 
 .secondary-project:hover .proj-div {
-
     display: none;
 }
 
@@ -217,7 +225,8 @@ body {
     text-decoration: none;
     color: white;
     padding: 1rem;
-    background-color: #A2A2A1FF;
+    background-color: $baby-blue;
+    
     position: absolute;
     top: 40%;
     left: 35%;
@@ -226,11 +235,63 @@ body {
 }
 
 .project-link:hover {
-    background-color: #a7a7a7;
+    background-color: rgb(164, 184, 199);
     color: white;
 }
 
 .proj-div {
     position: absolute;
     bottom: 5%;
+}
+
+//footer
+
+.footer {
+    margin: 0 auto;
+    padding: 5rem;
+    padding-bottom: 0;
+    background-color: #141e30;
+    width: 100%;
+    height: 45rem;
+}
+
+.footer hr {
+    color: $baby-blue;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.resume-a {
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem;
+    background-color: rgb(136, 156, 170);
+    top: 40%;
+    left: 35%;
+    border-radius: 5%;
+}
+
+.resume-a:hover {
+    background-color: rgb(108, 122, 133);
+    color: white;
+}
+
+.aboutme-section {
+    color: #B3C7D6FF;
+    font-weight: 500;
+}
+
+.form-section {
+    width: 30%;
+    padding-top: 1.1rem;
+    margin-left: 2rem;
+  
+}
+
+.top-footer-part {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    // margin: 5rem;
 }
