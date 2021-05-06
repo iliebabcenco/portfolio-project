@@ -194,7 +194,7 @@ body {
   padding-bottom: 0;
   background-color: #141e30;
   width: 100%;
-  height: 45rem; }
+  height: 55rem; }
 
 .footer hr {
   color: #B3C7D6FF;
@@ -228,5 +228,26 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 3rem; }
+
+.abilities-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #B3C7D6FF;
+  margin: 3rem; }
+
+.footer-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 700; }
+
+.footer .medium-navbar-ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; }
+
+.footer .medium-navbar-ul .mn-li {
+  margin-right: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */
