@@ -2,4 +2,5 @@
 .hintrc
 .styleintrc.json
 hint-report/
+node_modules/
 

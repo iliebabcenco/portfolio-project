@@ -21,10 +21,12 @@ body {
 .collapse {
   justify-content: flex-end; }
 
-.top-navbar .nav-link, .navbar-brand {
+.top-navbar .nav-link,
+.navbar-brand {
   color: #A2A2A1FF !important; }
 
-.nav-link:hover, .navbar-brand:hover {
+.nav-link:hover,
+.navbar-brand:hover {
   color: #d4d4d4 !important; }
 
 .nav-link .far {
@@ -177,16 +179,17 @@ body {
 
 .project-link {
   text-decoration: none;
-  color: white;
-  padding: 1rem;
-  background-color: #B3C7D6FF;
+  color: black;
+  font-weight: bold;
+  padding: 0.7rem;
+  background-color: #889caa;
   border-radius: 5%;
   display: none;
   margin: 0.1rem; }
 
 .project-link:hover {
-  background-color: #a4b8c7;
-  color: white; }
+  background-color: #667685;
+  color: black; }
 
 .links-div {
   display: flex;
@@ -213,16 +216,18 @@ body {
 
 .resume-a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 0.7rem;
   background-color: #889caa;
   top: 40%;
   left: 35%;
-  border-radius: 5%; }
+  border-radius: 5%;
+  font-weight: 500; }
 
 .resume-a:hover {
-  background-color: #6c7a85;
-  color: white; }
+  background-color: #667685;
+  color: black;
+  font-weight: 500; }
 
 .aboutme-section {
   color: #B3C7D6FF;
