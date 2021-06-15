@@ -19,6 +19,10 @@ body {
     background: $main-gradient;
 }
 
+button {
+    border: none;
+}
+
 .greet-h4 {
     margin-bottom: 0.9rem;
 }
@@ -243,10 +247,10 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 0.7rem;
+    padding: 0.6rem;
     background-color: #889caa;
     border-radius: 5%;
-    display: none;
+    // display: none;
     margin: 0.1rem;
 
 }
@@ -266,6 +270,17 @@ body {
 .proj-div {
     position: absolute;
     bottom: 5%;
+}
+
+.carus-img {
+    max-height: 25rem;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #141e30;
+    background-color: #141e30;
 }
 
 //footer

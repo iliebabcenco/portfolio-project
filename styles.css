@@ -4,6 +4,9 @@ html {
 body {
   background: linear-gradient(to right, #141e30, #243b55); }
 
+button {
+  border: none; }
+
 .greet-h4 {
   margin-bottom: 0.9rem; }
 
@@ -181,10 +184,9 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  padding: 0.7rem;
+  padding: 0.6rem;
   background-color: #889caa;
   border-radius: 5%;
-  display: none;
   margin: 0.1rem; }
 
 .project-link:hover {
@@ -200,6 +202,15 @@ body {
 .proj-div {
   position: absolute;
   bottom: 5%; }
+
+.carus-img {
+  max-height: 25rem;
+  margin: 0 auto; }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #141e30;
+  background-color: #141e30; }
 
 .footer {
   margin: 0 auto;
