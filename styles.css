@@ -126,7 +126,7 @@ button {
   border-radius: 2%;
   position: relative; }
 
-.secondary-project:hover .project-link {
+.secondary-project:hover .project-link-hide {
   display: block; }
 
 .secondary-project:hover .proj-div {
@@ -180,7 +180,8 @@ button {
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
   background-size: 100% 100%; }
 
-.project-link {
+.project-link,
+.project-link-hide {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -188,6 +189,9 @@ button {
   background-color: #889caa;
   border-radius: 5%;
   margin: 0.1rem; }
+
+.project-link-hide {
+  display: none; }
 
 .project-link:hover {
   background-color: #667685;
@@ -211,6 +215,12 @@ button {
 .carousel-control-next-icon {
   color: #141e30;
   background-color: #141e30; }
+
+.modal-content {
+  color: black; }
+
+.project-details {
+  padding: 0 2rem; }
 
 .footer {
   margin: 0 auto;

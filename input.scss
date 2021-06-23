@@ -175,7 +175,7 @@ button {
     position: relative;
 }
 
-.secondary-project:hover .project-link {
+.secondary-project:hover .project-link-hide {
     display: block;
 }
 
@@ -243,16 +243,20 @@ button {
     background-size: 100% 100%;
 }
 
-.project-link {
+.project-link,
+.project-link-hide {
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 0.6rem;
     background-color: #889caa;
     border-radius: 5%;
-    // display: none;
     margin: 0.1rem;
 
+}
+
+.project-link-hide {
+    display: none;
 }
 
 .project-link:hover {
@@ -281,6 +285,14 @@ button {
 .carousel-control-next-icon {
     color: #141e30;
     background-color: #141e30;
+}
+
+.modal-content {
+    color: black;
+}
+
+.project-details {
+    padding: 0 2rem;
 }
 
 //footer

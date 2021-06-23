@@ -188,7 +188,8 @@
         <article class="secondary-project" id="first-project">
           <div class="links-div">
 
-            <button class="resume-a project-link" data-bs-toggle="modal" data-bs-target="#secondProjectModal">Show
+            <button class="resume-a project-link project-link-hide" data-bs-toggle="modal"
+              data-bs-target="#secondProjectModal">Show
               details</button>
           </div>
           <div class="proj-div">
@@ -265,14 +266,126 @@
 
         <article class="secondary-project" id="second-project">
           <div class="links-div">
-            <a href="#" class="project-link">Live Version</a>
-            <a href="https://github.com/iliebabcenco/grow-up" class="project-link">Source Code</a>
+
+            <button class="resume-a project-link project-link-hide" data-bs-toggle="modal"
+              data-bs-target="#thirdProjectModal">Show
+              details</button>
           </div>
           <div class="proj-div">
-            <h5 class="about-project">GrowUp</h5>
-            <p class="about-project">It is web project build for microfinancial purposes</p>
+            <h5 class="title-project">Little Tale RPG</h5>
+            <p class="about-project">It is a real time RPG. </p>
+
           </div>
         </article>
+
+
+        <div class="modal fade" id="thirdProjectModal" tabindex="-1" aria-labelledby="thirdProjectModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="thirdProjectModalLabel">Little Tale RPG</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <div id="carouselThirdIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselThirdIndicators" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselThirdIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselThirdIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselThirdIndicators" data-bs-slide-to="3"
+                      aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselThirdIndicators" data-bs-slide-to="4"
+                      aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="assets/littletale-rpg/1.png" target="blank"><img src="assets/littletale-rpg/1.png"
+                          class="carus-img d-block" alt="littletale-rpg"></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="assets/littletale-rpg/2.png" target="blank"><img src="assets/littletale-rpg/2.png"
+                          class="carus-img d-block" alt="littletale-rpg"></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="assets/littletale-rpg/3.png" target="blank"><img src="assets/littletale-rpg/3.png"
+                          class="carus-img d-block" alt="littletale-rpg"></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="assets/littletale-rpg/4.png" target="blank"><img src="assets/littletale-rpg/4.png"
+                          class="carus-img d-block" alt="littletale-rpg"></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="assets/littletale-rpg/5.png" target="blank"><img src="assets/littletale-rpg/5.png"
+                          class="carus-img d-block" alt="littletale-rpg"></a>
+                    </div>
+                  </div>
+
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselThirdIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselThirdIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                  <div class="project-details">
+                    <div class="project-description">
+                      <h5 class="details-header">Description:</h5>
+                      <p>This is a JavaScript capstone project from Microverse curriculum. It is a real time
+                        RPG. It is built based on next features: </p>
+
+                      <ol>
+                        <li> can control the main character on the map;</li>
+                        <li>The main goal is to kill monsters using that character;</li>
+                        <li>By killing monsters main character gains experience;</li>
+                        <li>Based on experience main char level is increasing using next formula:
+                          Math.round(((Math.sqrt(25 + 10 *
+                          experience) - 5) / 10));</li>
+                        <li>Main char has states like: attack, hp, experience, attack radius which can change if the
+                          main
+                          char is
+                          increasing the level;</li>
+                        <li>Monsters on the map are moving randomly and randomly time;</li>
+                        <li>Each monster has its own states like: hp, attack, experience for killing, attack radius;
+                        </li>
+                        <li>Monsters are powerful so player has to control the distance between himslef and monsters;
+                        </li>
+                        <li>Monsters attacks the player if he is not far;</li>
+                        <li>The experience of the player is stored in an API;</li>
+                        <li>There is a leaderboard where players can compete gaining experience from killing monsters;
+                        </li>
+                        <li>The game can be finished in 3 ways: main char death, killing all monsters, restart etc.</li>
+                        <li>P.S. I want to mention that the battle system was fully implemented by me.</li>
+                      </ol>
+                    </div>
+                    <div class="project-build">
+                      <h5 class="details-header">Built with:</h5>
+                      <ul class="build-list">
+                        <li>Phaser 3</li>
+                        <li>JavaScript</li>
+                        <li>Webpack</li>
+                        <li>Jest</li>
+                        <li>API for storing scores</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="https://little-tale-rpg.netlify.app/" class="project-link">Live Version</a>
+                <a href="https://github.com/iliebabcenco/littletale-rpg" class="project-link">Source Code</a>
+                <button type="button" class="resume-a" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <article class="secondary-project" id="third-project">
           <div class="links-div">
