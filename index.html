@@ -710,16 +710,17 @@
       </section>
       <section class="form-section">
         <h1 class="greet-h1">Let's get in touch!</h1>
-        <form action="#">
+        <form action="https://formsubmit.co/ilie.babcenco@gmail.com" method="POST">
           <div class="mb-4 mt-4">
 
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" required>
           </div>
           <div class="mb-5 mt-4">
 
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"
+              required></textarea>
           </div>
-          <a href="#" class="resume-a">Get In Touch!</a>
+          <button type="submit" class="resume-a">Get In Touch!</button>
         </form>
       </section>
     </section>
@@ -739,8 +740,8 @@
       <div class="frameworks">
         <h3 class="abil-h3">Frameworks</h3>
         <ul class="footer-ul">
-          <li class="mn-li">Bootstrap</li>
           <li class="mn-li">Ruby on Rails</li>
+          <li class="mn-li">Bootstrap</li>
           <li class="mn-li">Spring</li>
           <li class="mn-li">Rspec</li>
           <li class="mn-li">CapyBara</li>
@@ -752,7 +753,7 @@
           <li class="mn-li">Git</li>
           <li class="mn-li">Github</li>
           <li class="mn-li">Command Line</li>
-          <li class="mn-li">Netflix</li>
+          <li class="mn-li">Netlify</li>
           <li class="mn-li">Heroku</li>
         </ul>
       </div>
@@ -775,6 +776,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
     crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
 </body>
 
 </html>
