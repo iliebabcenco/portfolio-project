@@ -137,7 +137,7 @@ button {
   background-size: 100% 100%; }
 
 #second-project:hover {
-  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background: none, url(assets/littletale-rpg/2.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #third-project:hover {
@@ -145,15 +145,15 @@ button {
   background-size: 100% 100%; }
 
 #fourth-project:hover {
-  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background: none, url(assets/activities-manager/1.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #fifth-project:hover {
-  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background: none, url(assets/social-media/2.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #sixth-project:hover {
-  background: none, url(assets/grow-up/logo.png) no-repeat center center;
+  background: none, url(assets/weather/1.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #first-project {
@@ -161,7 +161,7 @@ button {
   background-size: 100% 100%; }
 
 #second-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/littletale-rpg/2.png) no-repeat;
   background-size: 100% 100%; }
 
 #third-project {
@@ -169,15 +169,15 @@ button {
   background-size: 100% 100%; }
 
 #fourth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/activities-manager/1.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #fifth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/social-media/2.png) no-repeat center center;
   background-size: 100% 100%; }
 
 #sixth-project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/grow-up/logo.png) no-repeat center center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, #141e30 84%), url(assets/weather/1.png) no-repeat center center;
   background-size: 100% 100%; }
 
 .project-link,
