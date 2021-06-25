@@ -2,7 +2,7 @@ html {
   font-family: Verdana, sans-serif; }
 
 body {
-  background: linear-gradient(to right, #141e30, #243b55); }
+  background-color: #243b55 !important; }
 
 button {
   border: none; }
@@ -52,7 +52,7 @@ button {
 
 .greet-section {
   height: 50rem;
-  background: linear-gradient(to right, #141e30, #243b55); }
+  background: #243b55; }
 
 .navm-link:hover {
   color: #d4d4d4 !important; }
